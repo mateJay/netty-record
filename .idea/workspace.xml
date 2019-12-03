@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36c8b65f-1b40-45f6-a9b2-428b5d1ab034" name="Default Changelist" comment="" />
+    <list default="true" id="36c8b65f-1b40-45f6-a9b2-428b5d1ab034" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty_record.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/netty_record.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/matejay/netty/server/handler/InBoundHandlerA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matejay/netty/server/handler/InBoundHandlerA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/matejay/netty/server/handler/InBoundHandlerB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matejay/netty/server/handler/InBoundHandlerB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/matejay/netty/server/handler/InBoundHandlerC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matejay/netty/server/handler/InBoundHandlerC.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +23,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -30,14 +41,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1SVUeTaQY03iy3262lhvNvUrVAz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -136,10 +151,22 @@
       <workItem from="1574086551524" duration="1265000" />
       <workItem from="1574146398497" duration="15677000" />
       <workItem from="1574651825667" duration="12666000" />
+      <workItem from="1575384265365" duration="1745000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
