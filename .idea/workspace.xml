@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36c8b65f-1b40-45f6-a9b2-428b5d1ab034" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matejay/netty/attribute/Attributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matejay/netty/client/handler/LoginResponseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matejay/netty/client/handler/MessageResponseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matejay/netty/codec/PacketDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matejay/netty/codec/PacketEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matejay/netty/packet/MessageRequestPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matejay/netty/packet/MessageResponsePacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matejay/netty/server/handler/LoginRequestHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matejay/netty/server/handler/MessageRequestHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/matejay/netty/util/LoginUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty_record.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/netty_record.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matejay/netty/server/handler/InBoundHandlerA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matejay/netty/server/handler/InBoundHandlerA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matejay/netty/server/handler/InBoundHandlerB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matejay/netty/server/handler/InBoundHandlerB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/matejay/netty/server/handler/InBoundHandlerC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/matejay/netty/server/handler/InBoundHandlerC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/matejay/netty/client/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matejay/netty/client/NettyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/matejay/netty/client/handler/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matejay/netty/client/handler/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/matejay/netty/packet/PacketCodec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matejay/netty/packet/PacketCodec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/matejay/netty/server/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matejay/netty/server/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/matejay/netty/server/handler/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matejay/netty/server/handler/ServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/matejay/netty/util/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/matejay/netty/util/Command.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +66,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.matejay.netty.client.handler" />
+      <recent name="com.matejay.netty.attribute" />
       <recent name="com.matejay.netty.util" />
+      <recent name="com.matejay.netty.codec" />
+      <recent name="com.matejay.netty.packet" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -151,7 +165,7 @@
       <workItem from="1574086551524" duration="1265000" />
       <workItem from="1574146398497" duration="15677000" />
       <workItem from="1574651825667" duration="12666000" />
-      <workItem from="1575384265365" duration="1745000" />
+      <workItem from="1575384265365" duration="3677000" />
     </task>
     <servers />
   </component>

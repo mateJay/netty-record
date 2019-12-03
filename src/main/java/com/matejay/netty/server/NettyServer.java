@@ -1,5 +1,7 @@
 package com.matejay.netty.server;
 
+import com.matejay.netty.codec.PacketDecoder;
+import com.matejay.netty.codec.PacketEncoder;
 import com.matejay.netty.server.handler.*;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelInitializer;
@@ -30,7 +32,14 @@ public class NettyServer {
                 .childHandler(new ChannelInitializer<NioSocketChannel>() {
                     @Override
                     protected void initChannel(NioSocketChannel ch) {
-
+                        // 解码
+                        ch.pipeline().addLast(new PacketDecoder());
+                        // 判断登录
+                        ch.pipeline().addLast(new LoginRequestHandler());
+                        // 服务器接收消息并且回复
+                        ch.pipeline().addLast(new MessageRequestHandler());
+                        // 编码
+                        ch.pipeline().addLast(new PacketEncoder());
                     }
                 });
 

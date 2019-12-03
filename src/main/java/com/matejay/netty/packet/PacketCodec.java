@@ -44,9 +44,9 @@ public class PacketCodec {
      * @param packet
      * @return
      */
-    public ByteBuf encode(ByteBufAllocator byteBufAllocator, Packet packet) {
+    public ByteBuf encode(ByteBuf byteBuf, Packet packet) {
         // 1. 创建 ByteBuf 对象
-        ByteBuf byteBuf = byteBufAllocator.buffer();
+//        ByteBuf byteBuf = byteBufAllocator.buffer();
 
         // 序列化
         byte[] bytes = Serializer.DEFAULT.serialize(packet);

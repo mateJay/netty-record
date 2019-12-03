@@ -2,6 +2,10 @@ package com.matejay.netty.client;
 
 import com.matejay.netty.client.handler.ClientHandler;
 import com.matejay.netty.client.handler.FirstClientHandler;
+import com.matejay.netty.client.handler.LoginResponseHandler;
+import com.matejay.netty.client.handler.MessageResponseHandler;
+import com.matejay.netty.codec.PacketDecoder;
+import com.matejay.netty.codec.PacketEncoder;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.nio.NioEventLoopGroup;
@@ -33,7 +37,15 @@ public class NettyClient {
                 .handler(new ChannelInitializer<SocketChannel>() {
                     @Override
                     public void initChannel(SocketChannel ch) {
-                        ch.pipeline().addLast(new FirstClientHandler());
+                        // 解码
+                        ch.pipeline().addLast(new PacketDecoder());
+                        // 登录并获得登录结果响应
+                        ch.pipeline().addLast(new LoginResponseHandler());
+                        // 获取服务器返回信息
+                        ch.pipeline().addLast(new MessageResponseHandler());
+                        // 编码
+                        ch.pipeline().addLast(new PacketEncoder());
+
                     }
                 });
 
